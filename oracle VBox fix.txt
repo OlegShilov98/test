@@ -1,0 +1,7 @@
+F:\Apps\VirtualBox
+icacls F:\Apps\VirtualBox /reset /t /c
+icacls F:\Apps\VirtualBox /inheritance:d /t /c
+icacls F:\Apps\VirtualBox /grant "*S-1-5-32-545:(OI)(CI)(RX)"
+icacls F:\Apps\VirtualBox /deny  "*S-1-5-32-545:(DE,WD,AD,WEA,WA)"
+icacls F:\Apps\VirtualBox /grant "*S-1-5-11:(OI)(CI)(RX)"
+icacls F:\Apps\VirtualBox /deny  "*S-1-5-11:(DE,WD,AD,WEA,WA)"
